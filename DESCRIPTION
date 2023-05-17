@@ -1,6 +1,6 @@
 Package: rotatogram
 Title: A Non-Axis-Dominant Association Plotting Tool
-Version: 0.1.3
+Version: 0.2.1
 Authors@R: 
     person("Noah", "Haber", , "noahhaber@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-5672-1769"))

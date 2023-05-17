@@ -9,6 +9,8 @@ rotatogram(
   x2,
   x1.label = "X1",
   x2.label = "X2",
+  error.bootstrap = FALSE,
+  error.bootstrap.iterations = 500,
   suppress.plot = FALSE,
   return.values = FALSE
 )
@@ -21,6 +23,10 @@ rotatogram(
 \item{x1.label}{(optional) Changes the x1 axis label to the specified name}
 
 \item{x2.label}{(optional) Changes the x2 axis label to the specified name}
+
+\item{error.bootstrap}{(optional) Generates and displays bootstrapped errors to enable confidence bands, standard errors, and confidence intervals}
+
+\item{error.bootstrap.iterations}{(optional) Sets number of iterations for which to run bootstrap}
 
 \item{suppress.plot}{(optional) Suppresses the plot output}
 

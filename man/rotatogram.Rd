@@ -30,7 +30,7 @@ rotatogram(
 description The resulting object contains the resulting intercept ($intercept), slope/beta ($beta), the slope in degrees ($slope.degrees)
 }
 \description{
-This package generates a rotatogram, a method of displaying an association which is axis non-dominant. This is achieved in two ways: First, the method of estimating the slope and intercept uses the least-products method rather than more typical least squared error for the "dependent" variable. The least products method has no "dependent" variable and is scale independent. Second, the plot is rotated such that the resulting regression line is vertical, reducing the suggestion that the vertical axis is the dominant one. The slope can be read relative to either axis equally.
+A rotatogram is a method of displaying an association which is axis non-dominant. This is achieved in two ways: First, the method of estimating the slope and intercept uses the least-products method rather than more typical least squared error for the "dependent" variable. The least products method has no "dependent" variable and is scale independent. Second, the plot is rotated such that the resulting regression line is vertical, reducing the suggestion that the vertical axis is the dominant one. The slope can be read relative to either axis equally.
 }
 \examples{
 # Output a rotatogram using the iris dataset

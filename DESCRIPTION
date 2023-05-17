@@ -1,10 +1,10 @@
 Package: rotatogram
-Title: Generates a rotatogram graphic for visualizing a non-axis-dominant association between two variables
-Version: 0.1.0
+Title: A Non-Axis-Dominant Association Plotting Tool
+Version: 0.1.3
 Authors@R: 
     person("Noah", "Haber", , "noahhaber@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-5672-1769"))
-Description: This package generates a rotatogram, a method of displaying an association which is axis non-dominant. This is achieved in two ways: First, the method of estimating the slope and intercept uses the least-products method rather than more typical least squared error for the "dependent" variable. The least products method has no "dependent" variable and is scale independent. Second, the plot is rotated such that the resulting regression line is vertical, reducing the suggestion that the vertical axis is the dominant one. The slope can be read relative to either axis equally.
+Description: A rotatogram is a method of displaying an association which is axis non-dominant. This is achieved in two ways: First, the method of estimating the slope and intercept uses the least-products method rather than more typical least squared error for the "dependent" variable. The least products method has no "dependent" variable and is scale independent. Second, the plot is rotated such that the resulting regression line is vertical, reducing the suggestion that the vertical axis is the dominant one. The slope can be read relative to either axis equally.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
